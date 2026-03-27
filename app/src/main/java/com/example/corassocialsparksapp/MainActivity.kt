@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             // LOG:Shows exactly what Cora typed
             //Using Logcat for manual testing and debugging [Ref:4]
             Log.d("SocialSparks", "User clicked Submit. Input: $userInput")
-// The Independent Institute of Education, “IMAD5112 Module Manual,” 2026.
+
             if (userInput == "Morning") {
                 txtShowSuggestion.text = "Send a 'Good morning' text to a family member."
                 Toast.makeText(this, "Morning Spark Found!", Toast.LENGTH_SHORT).show()
